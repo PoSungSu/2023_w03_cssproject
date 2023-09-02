@@ -5,10 +5,8 @@
 
     @include rwd($Pad) {
         max-width: 768px;
-        padding: 0 36px;
     }
     @include rwd($Mobile) {
         max-width: 375px;
-        padding: 0 12px;
     }
 }
